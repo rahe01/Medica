@@ -1,11 +1,11 @@
 import { initializeApp } from 'firebase/app'
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_apiKey,
-  authDomain: import.meta.env.VITE_authDomain,
-  projectId: import.meta.env.VITE_projectId,
-  storageBucket: import.meta.env.VITE_storageBucket,
-  messagingSenderId: import.meta.env.VITE_messagingSenderId,
-  appId: import.meta.env.VITE_appId,
-}
+  apiKey: "AIzaSyAGZxjwYbIam8Hs_MZHcpcdCNN73eoxK68",
+  authDomain: "stayvista008.firebaseapp.com",
+  projectId: "stayvista008",
+  storageBucket: "stayvista008.appspot.com",
+  messagingSenderId: "231162558438",
+  appId: "1:231162558438:web:46a127f30ef0896d09c827"
+};
 export const app = initializeApp(firebaseConfig)
